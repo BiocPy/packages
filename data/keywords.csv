@@ -1,0 +1,12 @@
+keyword,description
+core,Core packages for the ecosystem
+data-structures,Fundamental data structures
+genomics,Genomic interval and sequencing data
+transcriptomics,RNA-seq and bulk transcriptomics
+spatial,Spatial transcriptomics and imaging
+utilities,Helper functions and utilities
+interoperability,R and Python interoperability
+annotation,Genome annotations and hubs
+single-cell,Single-cell analysis tools and references
+file-io,File reading/writing and object serialization
+datasets,Access to curated datasets and remote hubs

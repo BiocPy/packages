@@ -1,0 +1,542 @@
+[
+  {
+    "name": "assorthead",
+    "description": "Assorted C++ headers, vendored into a Python package.",
+    "github_url": "https://github.com/BiocPy/assorthead",
+    "keywords": [
+      "core",
+      "interoperability",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/BiocPy/assorthead/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "BiocFrame",
+    "description": "Bioconductor-like data frames",
+    "github_url": "https://github.com/BiocPy/BiocFrame",
+    "keywords": [
+      "core",
+      "data-structures",
+      "interoperability"
+    ],
+    "tests_url": "https://github.com/BiocPy/BiocFrame/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "BiocPy",
+    "description": "Interface to all BiocPy packages",
+    "github_url": "https://github.com/BiocPy/BiocPy",
+    "keywords": [
+      "core"
+    ],
+    "tests_url": "https://github.com/BiocPy/BiocPy/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "BiocSetup",
+    "description": "Quickly setup new Python packages",
+    "github_url": "https://github.com/BiocPy/BiocSetup",
+    "keywords": [
+      "core",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/BiocPy/BiocSetup/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "BiocUtils",
+    "description": "Miscellaneous utilities for BiocPy, mostly to mimic base functionality in R.  ",
+    "github_url": "https://github.com/BiocPy/BiocUtils",
+    "keywords": [
+      "core",
+      "single-cell",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/BiocPy/BiocUtils/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "bioRAT",
+    "description": "",
+    "github_url": "https://github.com/BiocPy/bioRAT",
+    "keywords": [
+      "core"
+    ],
+    "tests_url": "https://github.com/BiocPy/bioRAT/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "biostrings",
+    "description": "",
+    "github_url": "https://github.com/BiocPy/biostrings",
+    "keywords": [
+      "core"
+    ],
+    "tests_url": "https://github.com/BiocPy/biostrings/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "cellarr",
+    "description": "Store collections of experimental data based on TileDB",
+    "github_url": "https://github.com/CellArr/cellarr",
+    "keywords": [
+      "file-io",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/CellArr/cellarr/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "cellarr-array",
+    "description": "Friendly wrappers around TileDB",
+    "github_url": "https://github.com/CellArr/cellarr-array",
+    "keywords": [
+      "file-io",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/CellArr/cellarr-array/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "cellarr-frame",
+    "description": "TileDB-backed data frames",
+    "github_url": "https://github.com/CellArr/cellarr-frame",
+    "keywords": [
+      "file-io",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/CellArr/cellarr-frame/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "cellarr-se",
+    "description": "TileDB backed SummarizedExperiment",
+    "github_url": "https://github.com/CellArr/cellarr-se",
+    "keywords": [
+      "file-io",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/CellArr/cellarr-se/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "celldex",
+    "description": "Collection of reference cell type datasets",
+    "github_url": "https://github.com/SingleR-inc/celldex-py",
+    "keywords": [
+      "datasets",
+      "single-cell",
+      "transcriptomics"
+    ],
+    "tests_url": "https://github.com/SingleR-inc/celldex-py/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "compressed-lists",
+    "description": "Memory-efficient container for list-like objects",
+    "github_url": "https://github.com/BiocPy/compressed-lists",
+    "keywords": [
+      "core",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/compressed-lists/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "cpptypes",
+    "description": "Automatically generate wrappers for ctypes with C++",
+    "github_url": "https://github.com/BiocPy/cpptypes",
+    "keywords": [
+      "core",
+      "interoperability",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/BiocPy/cpptypes/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "DelayedArray",
+    "description": "DelayedArrays, in Python",
+    "github_url": "https://github.com/BiocPy/DelayedArray",
+    "keywords": [
+      "core",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/DelayedArray/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "dolomite",
+    "description": "wrapper to install all dolomite packages",
+    "github_url": "https://github.com/ArtifactDB/dolomite",
+    "keywords": [
+      "file-io",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "dolomite-base",
+    "description": "Save Bioconductor objects in Python. ",
+    "github_url": "https://github.com/ArtifactDB/dolomite-base",
+    "keywords": [
+      "file-io",
+      "interoperability",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-base/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "dolomite-mae",
+    "description": "Save and load MultiAssayExperiments from file",
+    "github_url": "https://github.com/ArtifactDB/dolomite-mae",
+    "keywords": [
+      "file-io",
+      "data-structures",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-mae/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "dolomite-matrix",
+    "description": "Save and load matrices in Python",
+    "github_url": "https://github.com/ArtifactDB/dolomite-matrix",
+    "keywords": [
+      "file-io",
+      "data-structures",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-matrix/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "dolomite-ranges",
+    "description": "Save and load genomic ranges in Python",
+    "github_url": "https://github.com/ArtifactDB/dolomite-ranges",
+    "keywords": [
+      "genomics",
+      "file-io",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-ranges/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "dolomite-sce",
+    "description": "Save and load SingleCellExperiments from file.",
+    "github_url": "https://github.com/ArtifactDB/dolomite-sce",
+    "keywords": [
+      "single-cell",
+      "file-io",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-sce/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "dolomite-schemas",
+    "description": "Vendored schemas for Bioconductor objects",
+    "github_url": "https://github.com/ArtifactDB/dolomite-schemas",
+    "keywords": [
+      "file-io",
+      "interoperability",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-schemas/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "dolomite-se",
+    "description": "Save and load SummarizedExperiments in Python",
+    "github_url": "https://github.com/ArtifactDB/dolomite-se",
+    "keywords": [
+      "file-io",
+      "data-structures",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-se/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "dolomite-sfe",
+    "description": "",
+    "github_url": "https://github.com/ArtifactDB/dolomite-sfe",
+    "keywords": [
+      "file-io",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-sfe/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "dolomite-spatial",
+    "description": "Save and write SpatialExperiment's in Python",
+    "github_url": "https://github.com/ArtifactDB/dolomite-spatial",
+    "keywords": [
+      "spatial",
+      "file-io",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/dolomite-spatial/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "ensembldb",
+    "description": "Access EnsemblDb from AnnotationHub",
+    "github_url": "https://github.com/BiocPy/ensembldb",
+    "keywords": [
+      "core",
+      "datasets",
+      "genomics"
+    ],
+    "tests_url": "https://github.com/BiocPy/ensembldb/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "experimenthub",
+    "description": "Access ExperimentHub resources",
+    "github_url": "https://github.com/BiocPy/experimenthub",
+    "keywords": [
+      "core",
+      "datasets",
+      "annotation"
+    ],
+    "tests_url": "https://github.com/BiocPy/experimenthub/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "pyexpressionatlas",
+    "description": "Access datasets from EMBL-EBI Expression Atlas",
+    "github_url": "https://github.com/BiocPy/expressionatlas",
+    "keywords": [
+      "core",
+      "datasets",
+      "transcriptomics"
+    ],
+    "tests_url": "https://github.com/BiocPy/expressionatlas/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "GenomicArrays",
+    "description": "",
+    "github_url": "https://github.com/CellArr/GenomicArrays",
+    "keywords": [
+      "genomics",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/CellArr/GenomicArrays/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "GenomicRanges",
+    "description": "Container class to represent genomic locations and support genomic analysis",
+    "github_url": "https://github.com/BiocPy/GenomicRanges",
+    "keywords": [
+      "core",
+      "genomics",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/GenomicRanges/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "pygobbler",
+    "description": "Python client for the gobbler",
+    "github_url": "https://github.com/ArtifactDB/gobbler-py",
+    "keywords": [
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/gobbler-py/actions/workflows/build-docs.yaml"
+  },
+  {
+    "name": "gypsum_client",
+    "description": "Python client to gpysum",
+    "github_url": "https://github.com/ArtifactDB/gypsum-py",
+    "keywords": [
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/gypsum-py/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "hatchit",
+    "description": "Scaffold new python packages",
+    "github_url": "https://github.com/BiocPy/hatchit",
+    "keywords": [
+      "core"
+    ],
+    "tests_url": "https://github.com/BiocPy/hatchit/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "HDF5Array",
+    "description": "HDF5 File-backed arrays for Python",
+    "github_url": "https://github.com/BiocPy/HDF5Array",
+    "keywords": [
+      "core",
+      "file-io",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/HDF5Array/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "IRanges",
+    "description": "IRanges in Python",
+    "github_url": "https://github.com/BiocPy/IRanges",
+    "keywords": [
+      "core",
+      "genomics"
+    ],
+    "tests_url": "https://github.com/BiocPy/IRanges/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "mattress",
+    "description": "Python interface to tatami representations",
+    "github_url": "https://github.com/tatami-inc/mattress",
+    "keywords": [
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/tatami-inc/mattress/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "mopsy",
+    "description": "Matrix operations",
+    "github_url": "https://github.com/BiocPy/mopsy",
+    "keywords": [
+      "core",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/mopsy/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "MultiAssayExperiment",
+    "description": "Container class to represent and manage multi-omics genomic experiments",
+    "github_url": "https://github.com/BiocPy/MultiAssayExperiment",
+    "keywords": [
+      "core",
+      "genomics",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/MultiAssayExperiment/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "orgdb",
+    "description": "Access OrgDb Annotation objects",
+    "github_url": "https://github.com/BiocPy/orgdb",
+    "keywords": [
+      "core",
+      "genomics",
+      "annotation"
+    ],
+    "tests_url": "https://github.com/BiocPy/orgdb/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "pyBiocFileCache",
+    "description": "Python implementation of the BiocFileCache R package",
+    "github_url": "https://github.com/BiocPy/pyBiocFileCache",
+    "keywords": [
+      "core",
+      "file-io",
+      "interoperability"
+    ],
+    "tests_url": "https://github.com/BiocPy/pyBiocFileCache/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "rds2py",
+    "description": "Read and Write RDS files, in Python",
+    "github_url": "https://github.com/BiocPy/rds2py",
+    "keywords": [
+      "core",
+      "file-io",
+      "interoperability"
+    ],
+    "tests_url": "https://github.com/BiocPy/rds2py/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "scranpy",
+    "description": "Single-cell data analysis, from C++ to Python",
+    "github_url": "https://github.com/libscran/scranpy",
+    "keywords": [
+      "single-cell",
+      "interoperability"
+    ],
+    "tests_url": "https://github.com/libscran/scranpy/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "scrnaseq",
+    "description": "Collection of public single-cell RNA-seq datasets",
+    "github_url": "https://github.com/BiocPy/scrnaseq",
+    "keywords": [
+      "core",
+      "datasets",
+      "single-cell"
+    ],
+    "tests_url": "https://github.com/BiocPy/scrnaseq/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "sewerrat",
+    "description": "Python client for the SewerRat API",
+    "github_url": "https://github.com/ArtifactDB/SewerRat-py",
+    "keywords": [
+      "utilities"
+    ],
+    "tests_url": "https://github.com/ArtifactDB/SewerRat-py/actions/workflows/build-docs.yaml"
+  },
+  {
+    "name": "SingleCellExperiment",
+    "description": "Container class for single-cell experiments",
+    "github_url": "https://github.com/BiocPy/SingleCellExperiment",
+    "keywords": [
+      "core",
+      "single-cell",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/SingleCellExperiment/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "singler",
+    "description": "Python bindings for SingleR",
+    "github_url": "https://github.com/SingleR-inc/singler-py",
+    "keywords": [
+      "single-cell"
+    ],
+    "tests_url": "https://github.com/SingleR-inc/singler-py/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "SpatialExperiment",
+    "description": "Container for Spatial Experiments",
+    "github_url": "https://github.com/BiocPy/SpatialExperiment",
+    "keywords": [
+      "core",
+      "spatial",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/SpatialExperiment/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "SpatialFeatureExperiment",
+    "description": "",
+    "github_url": "https://github.com/BiocPy/SpatialFeatureExperiment",
+    "keywords": [
+      "core",
+      "spatial",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/SpatialFeatureExperiment/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "SummarizedExperiment",
+    "description": "Container class for genomic experiments",
+    "github_url": "https://github.com/BiocPy/SummarizedExperiment",
+    "keywords": [
+      "core",
+      "genomics",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/SummarizedExperiment/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "TileDBArray",
+    "description": "TileDB backed delayed arrays for Python",
+    "github_url": "https://github.com/BiocPy/TileDBArray",
+    "keywords": [
+      "core",
+      "file-io",
+      "data-structures"
+    ],
+    "tests_url": "https://github.com/BiocPy/TileDBArray/actions/workflows/pypi-test.yml"
+  },
+  {
+    "name": "txdb",
+    "description": "Access TxDB Annotation objects",
+    "github_url": "https://github.com/BiocPy/txdb",
+    "keywords": [
+      "core",
+      "genomics",
+      "annotation"
+    ],
+    "tests_url": "https://github.com/BiocPy/txdb/actions/workflows/run-tests.yml"
+  },
+  {
+    "name": "wobbegong",
+    "description": "Range-requests on Bioc objects",
+    "github_url": "https://github.com/kanaverse/wobbegong",
+    "keywords": [
+      "data-structures",
+      "utilities"
+    ],
+    "tests_url": "https://github.com/kanaverse/wobbegong/actions/workflows/run-tests.yml"
+  }
+]

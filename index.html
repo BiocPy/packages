@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiocPy - Ecosystem Packages Discovery</title>
+    <meta name="description" content="Discover and filter Python packages built for the BiocPy ecosystem, providing Bioconductor-like data structures in Python.">
+    
+    <!-- SEO and Social Cards -->
+    <meta property="og:title" content="BiocPy Packages">
+    <meta property="og:description" content="Discover and filter Python packages built for the BiocPy ecosystem.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/BiocPy/.github/main/logo/full.png">
+    <meta property="og:url" content="https://biocpy.github.io/packages/">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BiocPy Packages">
+    <meta name="twitter:description" content="Discover and filter Python packages built for the BiocPy ecosystem.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/BiocPy/.github/main/logo/full.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Feather Icons for lightweight SVGs -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header class="compact-header">
+            <div class="header-main">
+                <img src="https://raw.githubusercontent.com/BiocPy/.github/main/logo/full.png" alt="BiocPy Logo" class="logo">
+                <div class="header-text">
+                    <h1>BiocPy Packages</h1>
+                    <p class="subtitle">Discover and explore Python packages in the BiocPy ecosystem</p>
+                </div>
+            </div>
+            <div class="header-meta">
+                <div class="header-links">
+                    <a href="https://github.com/BiocPy" target="_blank" rel="noopener noreferrer" class="top-nav-link">
+                        <i data-feather="github" width="14" height="14"></i> BiocPy GitHub
+                    </a>
+                    <a href="https://github.com/BiocPy/packages#contributing" target="_blank" rel="noopener noreferrer" class="top-nav-link">
+                        <i data-feather="plus-circle" width="14" height="14"></i> Add Package
+                    </a>
+                </div>
+                <div class="stats" id="package-count">Loading packages...</div>
+            </div>
+        </header>
+
+        <section class="tag-stats-container">
+            <div id="tag-stats" class="tag-stats-grid">
+                <!-- Tag blocks will be injected here via JS -->
+            </div>
+        </section>
+
+        <section class="controls-container">
+            <div class="controls-top-row">
+                <div class="search-container">
+                    <i data-feather="search" class="search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search packages by name or description...">
+                </div>
+                <div class="logic-toggle-container">
+                    <span class="logic-label">Match:</span>
+                    <div class="logic-toggle" id="logic-toggle">
+                        <div class="toggle-option active" data-value="AND">ALL (AND)</div>
+                        <div class="toggle-option" data-value="OR">ANY (OR)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filters-bottom-row">
+                <div class="filters" id="keyword-filters">
+                    <!-- Keywords will be injected here via JS -->
+                </div>
+                <button id="clear-filters-btn" class="clear-btn" style="display: none;">Clear all</button>
+            </div>
+        </section>
+
+        <main>
+            <div id="loader" class="loader"></div>
+            <div class="packages-grid" id="packages-list" style="display: none;">
+                <!-- Packages will be injected here via JS -->
+            </div>
+            <div id="no-results" class="no-results" style="display: none;">
+                No packages match all selected keywords.
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 BiocPy Ecosystem. Built for Python Bioinformatics.</p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
