@@ -1,4 +1,4 @@
-# BiocPy Packages Discovery Web App
+# BiocPy Packages Discovery
 
 This is a simple web application designed to help users discover and explore Python packages built for the BiocPy ecosystem. 
 
