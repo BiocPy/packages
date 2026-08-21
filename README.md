@@ -19,10 +19,21 @@ To update the list of packages:
      "description": "A short, concise description of your package.",
      "github_url": "https://github.com/YourOrg/YourPackageName",
      "keywords": ["core", "utilities"],
-     "tests_url": "https://github.com/YourOrg/YourPackageName/actions"
+     "tests_url": "https://github.com/YourOrg/YourPackageName/actions/workflows/run-tests.yml",
+     "docs_url": "https://yourpackage.readthedocs.io",
+     "doi": "10.1038/s41592-000-0000-0",
+     "in_biocpy_environments": false
    }
    ```
-   *Note: You can specify up to 3 keywords per package. Ensure that your keywords are already present in `data/keywords.csv`.*
+   **Key Descriptions:**
+   * `name` (required): The name of your package.
+   * `description` (required): A short, concise description.
+   * `github_url` (required): Link to the GitHub repository.
+   * `keywords` (required): An array of tags (up to 3). Must exist in `data/keywords.csv`.
+   * `tests_url` (optional): Direct URL to the GitHub Actions workflow YAML for your tests (e.g., `.../actions/workflows/run-tests.yml`).
+   * `docs_url` (optional): URL to your package documentation.
+   * `doi` (optional): Digital Object Identifier for any associated publication.
+   * `in_biocpy_environments` (optional): Boolean indicating if this package is explicitly included in the `BiocPy/environments` release.
 3. **Commit and Push**: Commit your changes to your fork.
 4. **Create a Pull Request**: Submit a Pull Request back to this repository. Once reviewed and merged into the `main` branch, the GitHub Action will automatically redeploy the updated website!
 
@@ -36,6 +47,10 @@ If your package doesn't fit into any of the existing categories, you can propose
    your-new-keyword,Brief description of what this category means
    ```
 3. Use the new keyword in your package entry in `data/packages.json`.
+
+## Features
+
+* **Direct Package Links:** You can link directly to a specific package using the `?package=` parameter (e.g., `?package=biocpy`). The app will automatically calculate which page the package is on, scroll directly to it, and expand it.
 
 ## Local Development
 

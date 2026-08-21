@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BiocPy - Ecosystem Packages Discovery</title>
-    <meta name="description" content="Discover and filter Python packages built for the BiocPy ecosystem, providing Bioconductor-like data structures in Python.">
-    
+    <meta name="description"
+        content="Discover and filter Python packages built for the BiocPy ecosystem, providing Bioconductor-like data structures in Python.">
+
     <!-- SEO and Social Cards -->
     <meta property="og:title" content="BiocPy Packages">
     <meta property="og:description" content="Discover and filter Python packages built for the BiocPy ecosystem.">
     <meta property="og:image" content="https://raw.githubusercontent.com/BiocPy/.github/main/logo/full.png">
     <meta property="og:url" content="https://biocpy.github.io/packages/">
     <meta property="og:type" content="website">
-    
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="BiocPy Packages">
     <meta name="twitter:description" content="Discover and filter Python packages built for the BiocPy ecosystem.">
     <meta name="twitter:image" content="https://raw.githubusercontent.com/BiocPy/.github/main/logo/full.png">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <!-- Feather Icons for lightweight SVGs -->
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
+
 <body>
 
     <div class="container">
         <header class="compact-header">
             <div class="header-main">
-                <img src="https://raw.githubusercontent.com/BiocPy/.github/main/logo/full.png" alt="BiocPy Logo" class="logo">
+                <img src="https://raw.githubusercontent.com/BiocPy/.github/main/logo/full.png" alt="BiocPy Logo"
+                    class="logo">
                 <div class="header-text">
                     <h1>BiocPy Packages</h1>
                     <p class="subtitle">Discover and explore Python packages in the BiocPy ecosystem</p>
@@ -42,8 +46,13 @@
                     <a href="https://github.com/BiocPy" target="_blank" rel="noopener noreferrer" class="top-nav-link">
                         <i data-feather="github" width="14" height="14"></i> BiocPy GitHub
                     </a>
-                    <a href="https://github.com/BiocPy/packages#contributing" target="_blank" rel="noopener noreferrer" class="top-nav-link">
-                        <i data-feather="plus-circle" width="14" height="14"></i> Add Package
+                    <a href="https://github.com/BiocPy/environments" target="_blank" rel="noopener noreferrer"
+                        class="top-nav-link">
+                        <i data-feather="server" width="14" height="14"></i> Environments
+                    </a>
+                    <a href="https://github.com/orgs/BiocPy/packages?repo_name=environments" target="_blank"
+                        rel="noopener noreferrer" class="top-nav-link">
+                        <i data-feather="box" width="14" height="14"></i> Docker Images
                     </a>
                 </div>
                 <div class="stats" id="package-count">Loading packages...</div>
@@ -70,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="filters-bottom-row">
                 <div class="filters" id="keyword-filters">
                     <!-- Keywords will be injected here via JS -->
@@ -79,11 +88,23 @@
             </div>
         </section>
 
+        <div class="action-bar">
+            <a href="https://github.com/BiocPy/packages#contributing" target="_blank" rel="noopener noreferrer"
+                class="submit-package-link">
+                <i data-feather="plus-circle" width="14" height="14"></i> Want to add your package?
+            </a>
+        </div>
+
         <main>
             <div id="loader" class="loader"></div>
             <div class="packages-grid" id="packages-list" style="display: none;">
                 <!-- Packages will be injected here via JS -->
             </div>
+
+            <div id="pagination-controls" class="pagination-controls" style="display: none;">
+                <!-- Pagination will be injected here via JS -->
+            </div>
+
             <div id="no-results" class="no-results" style="display: none;">
                 No packages match all selected keywords.
             </div>
@@ -91,7 +112,7 @@
     </div>
 
     <footer class="site-footer">
-        <p>&copy; 2026 BiocPy Ecosystem. Built for Python Bioinformatics.</p>
+        <p>&copy; 2026 BiocPy. From A-T-G-C to <code>import biocpy</code>.</p>
     </footer>
 
     <script type="module" src="js/app.js"></script>
@@ -99,4 +120,5 @@
         feather.replace();
     </script>
 </body>
+
 </html>

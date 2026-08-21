@@ -1,0 +1,30 @@
+name: Validate Packages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/packages.json'
+      - 'data/keywords.csv'
+      - 'scripts/validate_packages.py'
+  pull_request:
+    paths:
+      - 'data/packages.json'
+      - 'data/keywords.csv'
+      - 'scripts/validate_packages.py'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run validation script
+        run: python scripts/validate_packages.py
